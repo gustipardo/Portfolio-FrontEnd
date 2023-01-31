@@ -1,70 +1,30 @@
+:root{
+	--black: rgb(18, 18, 18);
+}
+
 body {
-  overflow: hidden; /* Hide scrollbars */
-  margin: 0;
+	background-color: var(--black);
 }
 
-.bg-image {
-	background-image: radial-gradient(at 75vw 45vh, purple 0%, black 70%);
-	background-size: cover;
-	height: 100vh;
-	width: 100vw;
-}
-.name{
-	color: white;
-	font-family: "Arvo", sans-serif;
-	letter-spacing: 10px;
-	position: absolute;
-	left: 15vw;
-	top: 200px;
-	font-size: 70px;
+
+nav {
+	background-color: var(--black);
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: $spacer !important;
 }
 
-.profession {
-	color: white;
-	font-family: "Arvo", sans-serif;
-	letter-spacing: 5px;
-	position: absolute;
-	left: 210px;
-	top: 400px;
-	font-size: 35px;
-
+.navbar-brand{
+	font-size: 32px;
 }
-
-.purpose{
-	color: red;
-	font-family: "Mukta", sans-serif;
-	letter-spacing: 10px;
-	position: Relative;
-	left: 700px;
-	top: -440px;
-	font-size: 70px;
-	font-weight: 800;
+li {
+	padding: 30px;
 }
-
-.small_name {
-	font-size: 	20px;
-	color: white;
-	font-family: "Arvo", sans-serif;
-	position: fixed ;
-	top: 25px;
-	left: 75px;
-}
-
-img{
-	top: 20px;
-	height: 50px;
-	position: fixed;
-}
-
-.instagram{
-
-right: 50px;
-}
-
-.github{
-right: 120px;
-}
-
-.linkedin {
-right: 190px;
+.btn {
+	border-radius: 15px;
+	height: 40px;
+	width: 110px;
+	font-size: 18px;
 }

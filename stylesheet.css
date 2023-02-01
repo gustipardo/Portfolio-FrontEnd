@@ -2,6 +2,10 @@
 	--black: rgb(18, 18, 18);
 }
 
+* {
+	font-family: 'Lato', sans-serif;
+}
+
 body {
 	background-color: var(--black);
 }
@@ -9,22 +13,33 @@ body {
 
 nav {
 	background-color: var(--black);
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
+	
+	font-size: 22px;
 	margin-left: 25%;
 	margin-right: 25%;
 	padding: $spacer !important;
 }
 
 .navbar-brand{
-	font-size: 32px;
+	font-size: 42px;
 }
 li {
 	padding: 30px;
 }
 .btn {
-	border-radius: 15px;
-	height: 40px;
-	width: 110px;
-	font-size: 18px;
+	border-radius: 20px;
+	height: 50px;
+	width: 135px;
+	font-size: 22px;
+	border-width: 3px;
+
 }
+
+h1{
+	margin-top: 4em;
+}
+
+.presentation, .Contact{
+	margin-left: 25%;
+}
+ 
